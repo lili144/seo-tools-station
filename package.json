@@ -1,0 +1,17 @@
+{
+  "name": "seo-tools-station",
+  "version": "1.0.0",
+  "description": "Free SEO Tools — Keyword Density Checker, Meta Tag Generator, Speed Checker",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}
