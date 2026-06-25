@@ -23,13 +23,11 @@ export default function MyApp({ Component, pageProps }) {
         />
         */}
         {/* Google AdSense */}
-        {/*
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5265207250332541"
           crossOrigin="anonymous"
         />
-        */}
       </Head>
       <Component {...pageProps} />
     </>
