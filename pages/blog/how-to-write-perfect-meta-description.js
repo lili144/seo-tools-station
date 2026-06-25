@@ -17,7 +17,7 @@ export default function BlogPost() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org', '@type': 'BlogPosting',
           headline: 'How to Write a Perfect Meta Description That Gets Clicks',
-          datePublished: '2025-06-26',
+          datePublished: '2026-06-25',
           author: { '@type': 'Organization', name: 'SEO Tools Pro' },
           abstract: 'Master the art of writing compelling meta descriptions that boost your click-through rate. Practical tips and examples.'
         })}} />
@@ -31,7 +31,7 @@ export default function BlogPost() {
           <header style={styles.header}>
             <span style={styles.badge}>🏷️ Meta Tags</span>
             <h1 style={styles.h1}>How to Write a Perfect Meta Description That Gets Clicks</h1>
-            <div style={styles.meta}><span>June 26, 2025</span><span>·</span><span>5 min read</span></div>
+            <div style={styles.meta}><span>June 25, 2026</span><span>·</span><span>5 min read</span></div>
           </header>
 
           <section style={styles.body}>

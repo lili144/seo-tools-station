@@ -17,7 +17,7 @@ export default function BlogPost() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org', '@type': 'BlogPosting',
           headline: 'How to Improve Website Speed for SEO — 10 Proven Tips',
-          datePublished: '2025-06-26',
+          datePublished: '2026-06-25',
           author: { '@type': 'Organization', name: 'SEO Tools Pro' },
           abstract: 'Page speed is a confirmed ranking factor. Learn 10 practical tips to improve your website speed, pass Core Web Vitals, and boost rankings.'
         })}} />
@@ -31,7 +31,7 @@ export default function BlogPost() {
           <header style={styles.header}>
             <span style={styles.badge}>⚡ Performance</span>
             <h1 style={styles.h1}>How to Improve Website Speed for SEO — 10 Proven Tips</h1>
-            <div style={styles.meta}><span>June 26, 2025</span><span>·</span><span>6 min read</span></div>
+            <div style={styles.meta}><span>June 25, 2026</span><span>·</span><span>6 min read</span></div>
           </header>
 
           <section style={styles.body}>

@@ -6,7 +6,7 @@ const articles = [
     title: 'How to Check Keyword Density — A Beginner\'s Guide',
     excerpt:
       'Learn how to analyze keyword density in your content, avoid keyword stuffing, and find the ideal density range. Free tool included.',
-    date: '2025-06-26',
+    date: '2026-06-25',
     readTime: '5 min read',
     icon: '🔍',
     tags: ['keyword density', 'on-page SEO', 'content optimization'],
@@ -16,7 +16,7 @@ const articles = [
     title: 'How to Write a Perfect Meta Description That Gets Clicks',
     excerpt:
       'Master the art of writing meta descriptions that boost CTR. Learn ideal length, proven formulas, and common mistakes to avoid.',
-    date: '2025-06-26',
+    date: '2026-06-25',
     readTime: '5 min read',
     icon: '🏷️',
     tags: ['meta description', 'SERP optimization', 'CTR'],
@@ -26,7 +26,7 @@ const articles = [
     title: 'How to Improve Website Speed for SEO — 10 Proven Tips',
     excerpt:
       'Page speed is a confirmed Google ranking factor. Learn 10 actionable ways to speed up your site and pass Core Web Vitals.',
-    date: '2025-06-26',
+    date: '2026-06-25',
     readTime: '6 min read',
     icon: '⚡',
     tags: ['page speed', 'Core Web Vitals', 'performance optimization'],
