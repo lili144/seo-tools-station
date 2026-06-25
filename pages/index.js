@@ -1,5 +1,23 @@
 import Head from 'next/head';
 
+const articles = [
+  {
+    slug: 'how-to-check-keyword-density',
+    title: 'How to Check Keyword Density — A Beginner\'s Guide',
+    icon: '🔍',
+  },
+  {
+    slug: 'how-to-write-perfect-meta-description',
+    title: 'How to Write a Perfect Meta Description That Gets Clicks',
+    icon: '🏷️',
+  },
+  {
+    slug: 'how-to-improve-website-speed-seo',
+    title: 'How to Improve Website Speed for SEO — 10 Proven Tips',
+    icon: '⚡',
+  },
+];
+
 const tools = [
   {
     slug: 'keyword-density',
@@ -99,6 +117,21 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Latest Articles */}
+        <section style={styles.latestArticles}>
+          <h2 style={styles.sectionTitle}>📝 Latest SEO Articles</h2>
+          <div style={styles.articleGrid}>
+            {articles.map((article) => (
+              <a key={article.slug} href={`/blog/${article.slug}/`} style={styles.articleCard}>
+                <span style={styles.articleIcon}>{article.icon}</span>
+                <span style={styles.articleTitle}>{article.title}</span>
+                <span style={styles.articleCta}>Read →</span>
+              </a>
+            ))}
+          </div>
+          <a href="/blog/" style={styles.viewAll}>View all articles →</a>
         </section>
 
         {/* AdSense Placeholder */}
@@ -222,6 +255,50 @@ const styles = {
     fontSize: '0.88rem',
     color: '#555',
     lineHeight: 1.5,
+  },
+  latestArticles: {
+    padding: '40px 0',
+  },
+  articleGrid: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 12,
+    marginBottom: 20,
+  },
+  articleCard: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: 14,
+    padding: '14px 20px',
+    background: '#f8f9fc',
+    borderRadius: 10,
+    border: '1px solid #eaeaea',
+    textDecoration: 'none',
+    color: 'inherit',
+    transition: 'background 0.15s',
+  },
+  articleIcon: {
+    fontSize: '1.3rem',
+    flexShrink: 0,
+  },
+  articleTitle: {
+    flex: 1,
+    fontSize: '0.95rem',
+    fontWeight: 600,
+    color: '#1a1a2e',
+    lineHeight: 1.3,
+  },
+  articleCta: {
+    color: '#2563eb',
+    fontWeight: 600,
+    fontSize: '0.88rem',
+    flexShrink: 0,
+  },
+  viewAll: {
+    color: '#2563eb',
+    fontWeight: 600,
+    fontSize: '0.95rem',
+    textDecoration: 'none',
   },
   adSection: {
     margin: '40px 0',

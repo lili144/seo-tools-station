@@ -2,32 +2,32 @@ import Head from 'next/head';
 
 const articles = [
   {
-    slug: 'check-keyword-density',
+    slug: 'how-to-check-keyword-density',
     title: 'How to Check Keyword Density — A Beginner\'s Guide',
     excerpt:
-      'Learn how to analyze keyword density in your content, why it matters for SEO, and what the ideal keyword density range is for 2025.',
-    date: '2025-06-20',
-    readTime: '4 min read',
+      'Learn how to analyze keyword density in your content, avoid keyword stuffing, and find the ideal density range. Free tool included.',
+    date: '2025-06-26',
+    readTime: '5 min read',
     icon: '🔍',
     tags: ['keyword density', 'on-page SEO', 'content optimization'],
   },
   {
-    slug: 'perfect-meta-description',
+    slug: 'how-to-write-perfect-meta-description',
     title: 'How to Write a Perfect Meta Description That Gets Clicks',
     excerpt:
-      'Master the art of writing compelling meta descriptions that boost your click-through rate. Tips, examples, and best practices for 2025.',
-    date: '2025-06-22',
+      'Master the art of writing meta descriptions that boost CTR. Learn ideal length, proven formulas, and common mistakes to avoid.',
+    date: '2025-06-26',
     readTime: '5 min read',
     icon: '🏷️',
     tags: ['meta description', 'SERP optimization', 'CTR'],
   },
   {
-    slug: 'improve-website-speed',
+    slug: 'how-to-improve-website-speed-seo',
     title: 'How to Improve Website Speed for SEO — 10 Proven Tips',
     excerpt:
-      'Page speed is a confirmed Google ranking factor. Learn how to measure, diagnose, and fix slow-loading pages to boost your rankings.',
-    date: '2025-06-25',
-    readTime: '5 min read',
+      'Page speed is a confirmed Google ranking factor. Learn 10 actionable ways to speed up your site and pass Core Web Vitals.',
+    date: '2025-06-26',
+    readTime: '6 min read',
     icon: '⚡',
     tags: ['page speed', 'Core Web Vitals', 'performance optimization'],
   },
@@ -47,7 +47,7 @@ export default function BlogIndex() {
           content="SEO blog, SEO tutorials, keyword density, meta description, website speed, SEO tips, SEO guide"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://seotoolspro.com/blog/" />
+        <link rel="canonical" href="https://seo-tools-station.vercel.app/blog/" />
         <meta property="og:title" content="SEO Blog — Free Tutorials & Guides" />
         <meta
           property="og:description"
@@ -61,12 +61,12 @@ export default function BlogIndex() {
               '@context': 'https://schema.org',
               '@type': 'Blog',
               name: 'SEO Tools Pro Blog',
-              url: 'https://seotoolspro.com/blog/',
+              url: 'https://seo-tools-station.vercel.app/blog/',
               description: 'Free SEO tutorials and practical guides for beginners and professionals.',
               blogPost: articles.map((a) => ({
                 '@type': 'BlogPosting',
                 headline: a.title,
-                url: `https://seotoolspro.com/blog/${a.slug}/`,
+                url: `https://seo-tools-station.vercel.app/blog/${a.slug}/`,
                 datePublished: a.date,
                 abstract: a.excerpt,
               })),
