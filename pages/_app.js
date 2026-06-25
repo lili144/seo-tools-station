@@ -22,6 +22,7 @@ export default function MyApp({ Component, pageProps }) {
           }}
         />
         */}
+        <meta name="google-site-verification" content="A5rjRvu20AVLq5k1AqBJ4ECGGN5DkHiHjOXUWKpDnpA" />
         {/* Google AdSense */}
         <script
           async
